@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#logo{
+    font-size: 4em;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/lYgsRPkt16EL5U2fvR/giphy.gif);
+    padding-left:20px;
+}
+
+#navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px ;
+    height: 10%;
+    background-color: #28282B;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+#navigation-bar a{
+    font-size: 2em;
+    padding-right: 30px;
+    margin-right:20px;
+    color: white;
+    font-weight: bold;
+}
+
+#navigation-bar a:hover{  
+    color: #cb2d3e;
+}
+
+#hey,#ultimate,#learners{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+#techademy-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+#hey{
+    background-color: yellow;
+}
+#hey a{
+    display: block;
+    margin-top: 55vh;
+    font-size: 5em;
+    font-weight: bolder; 
+    color: rgba(0, 143, 36, 0.719);    
+}
+
+#ultimate{
+    background-color: #73ee39;
+}
+
+#ultimate a{
+    display: block;
+    margin-top: 50vh;
+    font-size: 5em;
+    font-weight: bolder; 
+    color: #7739eec9;
+}
+
+#learners{
+    background-color: #ff5959;
+}
+
+#learners a{
+    display: block;
+    margin-top: 50vh;
+    font-size: 5em;
+    font-weight: bolder; 
+    color: #ecff59;
+}

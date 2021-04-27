@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Satisfy&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Raleway:wght@700&family=Satisfy&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Nunito:wght@600&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    
+    box-sizing: border-box;
+    
+}
+.container{
+    display: flex;
+    background-color: cadetblue;
+    height: 60vh;
+    margin: 15vh auto;
+    width: 50%;
+    box-shadow: 4px 5px 41px 35px rgba(30, 30, 60, 0.2);
+    z-index: 999;
+}
+
+.login-box1{
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.registerform-box2{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color:#dbf0fb;
+    background-color: rgb(255, 238, 0);
+    background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+h2{
+    font-size: 2.1em;
+    text-align: center;
+    margin: 7vh 0 3vh 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#form, #login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.login-icons{
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.login-icons img{
+    width: 2vw;
+    /*  */
+    margin: 0 .5vw;
+    
+}
+
+
+.login-icons p{
+margin: 14px 0;
+padding: 1.1vh 20px;
+border-top: 1px solid black;
+/* border-bottom: 1px solid black; */
+font-size: 0.9em;
+}
+
+.login-icon-caption{
+    margin: 2px;
+    border-top: black 1px solid;
+    
+}
+.login-icon-caption p{
+    margin: 10px;
+}
+
+
+input{
+    border: none;
+    height: 4vh;
+    width: 16vw;
+    margin-bottom: 2vh;
+    padding: 10px;
+    /* outline: none; */
+    background-color: #eee;
+    /* outline: none; */
+}
+#login-form button{
+    width: 7.8vw;
+    border-radius: 20px;
+    height: 5vh;
+    background-color: #FF4B2B;
+    border: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: poppins;
+}
+.login-main p{
+    margin-top: 4px;
+    margin-bottom: 13px;
+    font-size: 14px;
+
+}
+
+.registerform-box2 h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 4.4vw;
+    font-size: 1.4em;
+    margin-bottom: 14px;
+    color: white;
+}
+
+#register-button{
+    width: 7.8vw;
+    border-radius: 20px;
+    height: 5vh;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: poppins;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* header  */
+header {
+	height: 12vh;
+	width: 100%;
+	background-color: rgb(20,20,20);
+	/* position: fixed; */
+	border-bottom: 8px solid #ff8e71;
+	z-index: 1;
+}
+
+
+
+#navigation-bar {
+	font-size: 1.5em;
+    padding-top: 1vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo,.nav-links {
+	margin-top: 2vh;
+}
+
+#logo {
+	color: seashell;
+	padding-left: 2vw;
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+}
+
+.nav-links a {
+	margin-right: 3vw;
+	color: seashell;
+	font-family: 'Secular One', sans-serif;
+	font-size: 1.4em;
+	position: relative;
+}
+
+.pagewrapper {
+	position: relative;
+	top: 10vh;
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("/Backgrounds/main-background\ \(1\)-01.jpeg");
+    background-attachment: fixed;
+	color: azure;
+	overflow: hidden;
+	height: 104vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+    margin:-108px 0;
+} 
+
+.nav-links p {
+	font-size: 30px;
+    margin-right: 2vw;
+	letter-spacing: 2px;
+	font-family: 'Satisfy', cursive;
+}
+
+.login-box1 h2 , .login-box1 p{
+    color: black;
+}
+
+input:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#login-form p:hover{
+    color:rgb(250, 112, 0);
+    font-weight: 700;
+}
+#login-form button:hover{
+    border:2px solid  #FF4B2B;
+    background-color: cornsilk;
+    color: #FF4B2B;
+}
+
+.registerform-box2 h3:hover{
+    letter-spacing: .1px;
+}
+
+#register-button:hover{
+    background-color: white;
+    color: #FF4B2B;   
+}

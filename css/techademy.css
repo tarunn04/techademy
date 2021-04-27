@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Satisfy&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Raleway:wght@700&family=Satisfy&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&family=Poppins:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Pacifico&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+header {
+	height: 12vh;
+	width: 100%;
+	background-color: rgb(20,20,20);
+	position: fixed;
+	border-bottom: 8px solid #ff8e71;
+	z-index: 1;
+}
+
+
+
+#navigation-bar {
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo,.nav-links {
+	margin-top: 2vh;
+}
+
+#logo {
+	color: seashell;
+	padding-left: 2vw;
+	font-family: 'Satisfy', cursive;
+	font-size: 2em;
+}
+
+.nav-links a {
+	margin-right: 3vw;
+	color: seashell;
+	font-family: 'Secular One', sans-serif;
+	font-size: 1.4em;
+	position: relative;
+}
+
+#techademy-flex {
+	position: relative;
+	top: 10vh;
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("/Backgrounds/main-background.jpg");
+    /* background-attachment: fixed; */
+	color: azure;
+	overflow: hidden;
+	height: 90vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.techademymain p {
+	font-size: 5em;
+	letter-spacing: 2px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: bolder;
+}
+
+.techademymain {
+	position: relative;
+	top: 39vh;
+	left: 10vw;
+	display: flex;
+}
+
+.main-suggest {
+	height: 95vh;
+	background-color: silver;
+    /* background: linear-gradient(to left, #FFB88C, #f95e5eeb,#f54141eb,#f54141eb,#f54141eb,#f95454eb,#FFB88C); */
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("/Backgrounds/course-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-catog{
+	margin-top: 3vh;
+}
+
+#techademy-main-title {
+	left: 35vw;
+	position: relative;
+}
+.img{
+	background-color:rgba(0, 0, 0, .3);
+}
+
+.divider{
+	height: 16vh;
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+    /* font-family: 'Lato', sans-serif; */
+    font-weight: 500;
+    color: wheat;
+    background: #232526;
+    background: -webkit-linear-gradient(to top, #414345, #232526);background:linear-gradient(to top, rgb(22 24 27), rgb(23 26 27));
+    align-items: center;
+    justify-content: space-between;
+}
+.divider-about{
+	margin: 0 49px;
+    color: white;
+    display: flex;
+
+}
+
+.divider p {margin: 0 25px;
+    font-family: 'Satisfy', cursive;
+    padding-top: 30px;
+}
+
+.main-suggest img {
+    width: 10.5vw;
+}
+
+/* .main-catog h3 {
+    text-align: center;
+    padding: 5vh 0;
+    font-weight: bolder;
+    font-size: 3em;
+    color: azure;
+} */
+
+#courses1, #courses2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2vh;
+}
+
+.img {
+	padding: 15px 35px;
+	text-align: center;
+	font-size: x-large;
+	font-weight: 700;
+}
+
+.img a {
+	color: beige;
+}
+.img h3{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1em;
+	padding-top: 10px;
+}
+.main-catog h3 {
+	padding-top: 30px;
+    color: white;
+    font-size: 64px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+	
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	background-color: bisque;
+	margin-top: 79px;
+}
+
+.container {
+	background: linear-gradient(to right, #ef5858d9,#9d9dd6,#ff7c7c, #e48fda);
+	background-size: 400% 400%;
+	-webkit-animation: bg 18s ease infinite;
+	-moz-animation: bg 18s ease infinite;
+	animation: bg 18s ease infinite;
+}
+
+.container-flex{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	padding-right: 5vw;
+	padding-top: 30vh;
+}
+
+
+#about-us {
+	display: flex;
+	justify-content: center;
+}
+
+.team ul {
+	display: flex;
+}
+
+footer {
+	height: 30vh;
+	width: 100%;
+    background-color: #323232;
+    color: beige;
+}
+.team h3,.team p{
+	font-family: 'Acme', sans-serif;
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+
+.team {
+	
+	margin: 0px 3vw;
+	text-align: center;
+}
+
+#footer-head {
+	font-size: 2.4em;
+	text-align: center;
+	padding: 15px 0;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 3px;
+	color:transparent;
+	
+}
+
+#footer-head{
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(
+		270deg
+		, #26b9ff, #ea6060,#e2ea32);
+    background-size: 400% 400%;
+
+    -webkit-animation: footerhead 9s ease infinite;
+    -moz-animation: footerhead 9s ease infinite;
+    animation: footerhead 9s ease infinite;
+}
+
+@-webkit-keyframes footerhead {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@-moz-keyframes footerhead {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+@keyframes footerhead {
+    0%{background-position:31% 0%}
+    50%{background-position:70% 100%}
+    100%{background-position:31% 0%}
+}
+
+
+#team-center {
+	border-left: 2px solid wheat;
+	border-right: 2px solid wheat;
+	padding: 0px 6vw;
+}
+
+.profile-links img {
+	margin: 0 15px;
+}
+
+.animated-text {
+    color: white;
+    /* position: absolute; */
+    /* top: 130vh; */
+    /* right: -6vw; */
+    /* transform: translate(-50%,-50%); */
+    display: inline;
+    /* background-color: teal; */
+    padding: 0 30px;
+    text-align: left;
+    margin-top: -20vh;
+    height: 15vh;
+    margin-right: 14vw;
+    overflow: hidden;
+}
+.line{
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 8em;
+	line-height: 100px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	padding-bottom: 10vh;;
+	margin-right:-1.1vw;
+}
+
+#line1{
+	animation: anim 6s linear infinite;
+}
+
+@keyframes anim {
+
+	0%{
+		margin-top: 15px;
+	}
+	17%{
+		margin-top: -175px;
+	}
+	25%{
+		margin-top: -175px;
+	}
+	42%{
+		margin-top: -364px;
+	}
+	50%{
+		margin-top: -364px;
+	}
+	67%{
+		margin-top: -175px;
+	}
+	75%{
+		margin-top: -175px;
+	}
+	92%{
+		margin-top: 15px;
+	}
+	100%{
+		margin-top: 15px;
+		
+	}
+	
+}
+#animated-text-head{
+    /* position: absolute; */
+    /* top: 140vh; */
+    font-size: 7em;
+	display: block;
+    /* right: 6vw; */
+	/* text-shadow: 2px 1px 5px rgb(95, 23, 23); */
+}
+
+
+
+.container{
+	display: flex;
+}
+
+.container-img{
+	width: 50%;
+	height: 100vh;
+	background-color: transparent;
+}
+.container-flex{
+	width:50%;
+	height: 100vh;
+	background-color: transparent;
+	
+}
+
+.classimg {
+    width: 600px;
+    height: 57%;
+    background-color: violet;
+    background-image: url("/Backgrounds/markus-spiske-1LLh8k2_YFk-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: 600px;
+    background-position: 176px 35px;
+    margin: 23vh auto;
+}
+
+
+
+#animated-text-head{
+	font-family: 'Lato', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 8em;
+	position: relative;
+	top: -40px;
+}
+.container-caption p{
+	position: relative;
+	top:-8vh;
+	right:-2vw;
+	font-size:1.4em;
+	/* font-style: italic; */
+	font-weight: 700;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.img{
+	/* border:1px solid #323232 ; */
+	padding:0 0 5px 0;
+	margin:0 40px;
+}
+#join-now{
+	
+	position: absolute;
+    top: 170vh;
+    right: 39.5vw;
+    border-radius: 25px;
+    height: 7vh;
+    width: 8vw;
+    font-size: 1.5em;
+    background-color: #ce839b;
+    box-shadow: inset 0 0 0 0 yellow;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 600;
+    outline: none;
+    border: 2px solid black;	
+	transition: .5s ease;
+}
+
+#join-now:hover{
+	
+	color: black;
+	letter-spacing: 1px;
+	border:2px solid rgb(41, 39, 39);
+	
+}
+
+/* hover css */
+
+.nav-links a:after{
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background-color: #2b8880;
+	left: 0px;
+	bottom: 0px;
+	transition:transform .3s ease-in-out;
+	transform: scale(0,1);
+}
+
+.nav-links a:hover:after{
+	width: 100%;
+	transform: scale(1,1);
+}
+
+#logo:hover{
+	transition: all 2s ease;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(53deg, #a66ace, #e87324, #e1c41f);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+
+.techademymain p{
+	background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url(/Backgrounds/Screenshot\ from\ 2021-04-24\ 22-58-57.png);
+    background-position: 93vh 65vh;
+    background-attachment: fixed;
+}
+
+.team ul li img:hover{
+	width: 5.3vw;
+	
+}

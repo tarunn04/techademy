@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login-register.css">
+    <title>Join us</title>
+</head>
+<body>
+
+    
+
+
+    <!-- wrapper -->
+    <div class="pagewrapper">
+
+        <header id="heading">
+            <!-- Navigation Bar -->
+            <nav id="navigation-bar">
+                <h1 id="logo">Techademy</h1>
+                <div class="nav-links">
+                    <a class="nav-hover" href="">Home</a>
+                    <a class="nav-hover" href="#course">Course</a>
+                    <a class="nav-hover" href="#about-us">About us</a>
+                    <a class="nav-hover" href="/login-register.html" target="_blank">Join</a>
+                    <a class="nav-hover" href="mailto:techademy@gmail.com">Contact</a>
+                </div>
+            </nav>
+        </header> 
+
+        <!-- techademy into -->
+        
+
+        <!-- container -->
+        <div class="container">
+            
+             <!-- login -->
+            <div class="login-box1">
+                <h2>Sign In!</h2>
+
+                <div class="login-icons">
+                    <a href="https://accounts.google.com/signin/v2/identifier?hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                        <img src="/logos/icons8-chrome.gif"/>
+                    </a>
+
+                    <a href="https://www.facebook.com/">
+                        <img class="login-icon-mid" src="/logos/icons8-facebook-circled.gif"/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/login">
+                        <img  src="/logos/icons8-linkedin-2.gif"/>
+                    </a>
+                </div>
+
+                <div class="login-icon-caption">
+                    <p>or use your account</p>
+                </div>
+
+                <div class="login-main">
+                    <form id="login-form">
+                        <label for="email">
+                           
+                            <input class="input-login" type="email" id="email" name="email" placeholder="Email" required>     
+                        </label>
+
+                        <label for="password">
+                            
+                            <input class="input-login" type="password" name="password" id="password" placeholder="Password" required>
+                        </label>
+
+                        <a href="mailto:techademy@gmail.com?subject=Password Reset&body=Forgot my password can you please reset asap."><p>
+                            forgot password?
+                        </p></a>
+
+                        <!-- submit button -->
+                        <button type="submit" form="login-form" value="submit">Submit</button> 
+                    </form>    
+                </div>
+            </div>
+
+            <!-- register form -->
+            <div class="registerform-box2">
+                <h2>New To Techademy?</h2>
+                <h3>Create your account now!</h3>
+                <div id="form">
+                    <form action="" id="register-form">
+        
+                        <label for="user-name">
+                           
+                            <input type="text" id="User-name" name="User-name" placeholder="Enter Your User Name" required>
+                        </label>
+        
+                        <label for="email">
+                            
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                        </label>
+        
+                        <label for="phone-no">
+                            
+                            <input type="tel" id="contact no." name="contact no." placeholder="Enter Your contact no." required>
+                        </label>
+        
+                        <label for="password">
+                            
+                            <input type="password" id="password" name="password" placeholder="Create a password" minlength="8" required>
+                        </label>
+                        
+                        <!-- submit button -->
+                        
+                        <button id="register-button" >Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
