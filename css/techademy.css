@@ -67,7 +67,7 @@ header {
 #techademy-flex {
 	position: relative;
 	top: 10vh;
-	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("/Backgrounds/main-background.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("https://raw.githubusercontent.com/tarunn04/techademy/master/Backgrounds/main-background.jpg");
     /* background-attachment: fixed; */
 	color: azure;
 	overflow: hidden;
@@ -96,7 +96,7 @@ header {
 	height: 95vh;
 	background-color: silver;
     /* background: linear-gradient(to left, #FFB88C, #f95e5eeb,#f54141eb,#f54141eb,#f54141eb,#f95454eb,#FFB88C); */
-    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("/Backgrounds/course-bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,.75)), url("https://raw.githubusercontent.com/tarunn04/techademy/master/Backgrounds/course-bg.jpg");
 	background-position: center;
 	background-size: cover;
 	display: flex;
@@ -379,7 +379,7 @@ footer {
     width: 600px;
     height: 57%;
     background-color: violet;
-    background-image: url("/Backgrounds/markus-spiske-1LLh8k2_YFk-unsplash.jpg");
+    background-image: url("https://raw.githubusercontent.com/tarunn04/techademy/master/Backgrounds/markus-spiske-1LLh8k2_YFk-unsplash.jpg");
     background-attachment: fixed;
     background-size: 600px;
     background-position: 176px 35px;
@@ -489,7 +489,7 @@ footer {
 	background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: url(/Backgrounds/Screenshot\ from\ 2021-04-24\ 22-58-57.png);
+    background-image: url("https://raw.githubusercontent.com/tarunn04/techademy/master/Backgrounds/Screenshot%20from%202021-04-24%2022-58-57.png");
     background-position: 93vh 65vh;
     background-attachment: fixed;
 }
