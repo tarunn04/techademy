@@ -498,3 +498,9 @@ footer {
 	width: 5.3vw;
 	
 }
+.img{
+	transition: all .2s;
+}
+.img:hover{
+	transform: scale(1.1);
+}
